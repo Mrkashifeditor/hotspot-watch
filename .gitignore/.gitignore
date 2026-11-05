@@ -1,0 +1,14 @@
+# Secrets — never commit these
+.env
+config.yaml
+# Runtime data (history, debug captures, generated reports)
+data/
+reports/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# OS
+.DS_Store
+Thumbs.db
