@@ -1,0 +1,6 @@
+requests>=2.31
+# scapy is OPTIONAL — only for gateway-mode live TTL sniffing.
+# Without it, agent.py parses tcpdump output instead.
+# scapy>=2.5.0
+# PyYAML is OPTIONAL — agent.py has a built-in minimal config parser.
+# pyyaml>=6.0
