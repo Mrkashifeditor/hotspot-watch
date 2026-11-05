@@ -1,0 +1,4 @@
+mac,ip,hostname,up_mb,down_mb,device_type,ttl_seen,os_fingerprints
+AA:BB:CC:11:22:33,192.168.111.10,Kashif-Phone,20,120,phone,,
+AA:BB:CC:44:55:66,192.168.111.11,Ali-Phone,90,650,phone,,
+AA:BB:CC:77:88:99,192.168.111.12,Ahmed-Phone,30,150,phone,63,
