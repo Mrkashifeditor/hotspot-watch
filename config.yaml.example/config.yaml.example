@@ -1,0 +1,21 @@
+# hotspot-watch — config.yaml.example
+# Copy to config.yaml and edit. Never put passwords here — use .env.
+# Router eWeb password goes ONLY in .env as ROUTER_PASSWORD.
+
+router:
+  host: "192.168.111.1"
+  scheme: "https"
+  password_env: "ROUTER_PASSWORD"
+  # If the router probe finds no client list (Ruijie eWeb endpoints are
+  # undocumented and vary by firmware), set the working URL here.
+  # Find it in your browser DevTools > Network while opening Clients
+  # in eWeb at https://192.168.111.1, then paste the full path, e.g.:
+  # client_list_url: "/cgi-bin/luci/api/client/list"
+  client_list_url: ""
+
+poll_interval_minutes: 5
+baseline_days: 7
+spike_multiplier: 3.0
+phone_down_threshold_mb_1h: 500
+gateway_mode: false
+report_timezone: "Asia/Karachi"
